@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import api from '@/api/api'; // importa o arquivo api.js para fazer chamadas à API
+import api from '@/api/api'; // Importa o arquivo api.js para fazer chamadas à API
 
 export default {
   data() {
@@ -20,8 +20,8 @@ export default {
   },
   async created() {
     try {
-      const response = await api.get('/contacts'); // faz a chamada para buscar os contatos
-      this.contacts = response.data; // atualiza a lista de contatos com os dados recebidos da API
+      const response = await api.get('/contacts'); // Faz a chamada para buscar os contatos
+      this.contacts = response.data; // Atualiza a lista de contatos com os dados recebidos da API
     } catch (error) {
       console.error('Erro ao buscar contatos:', error);
     }
@@ -30,5 +30,4 @@ export default {
 </script>
 
 <style>
-
 </style>

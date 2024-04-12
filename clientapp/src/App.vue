@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <ContactList msg="Welcome to Your Vue.js App"/>
+    <img alt="Blue logo" src="./assets/logo.png">
+    <ContactList msg="Teste técnico desenvolvido por Monique Lupe"/>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
 import ContactList from './components/ContactList.vue'
+
+Vue.config.productionTip = false
 
 export default {
   name: 'App',
@@ -19,8 +22,6 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;

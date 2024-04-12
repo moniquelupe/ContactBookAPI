@@ -78,5 +78,10 @@ namespace ContactBookAPI.Controllers
 
             return NoContent();
         }
+
+        private bool ContactExists(int id)
+        {
+            return _context.Contacts.Any(e => e.Id == id);
+        }
     }
 }

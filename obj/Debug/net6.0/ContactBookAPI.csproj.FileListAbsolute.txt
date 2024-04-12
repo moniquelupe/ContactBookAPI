@@ -1,0 +1,7 @@
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.csproj.AssemblyReference.cache
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.AssemblyInfoInputs.cache
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.AssemblyInfo.cs
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.csproj.CoreCompileInputs.cache
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/monique/Desktop/ContactBookAPI/obj/Debug/net6.0/ContactBookAPI.MvcApplicationPartsAssemblyInfo.cache

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import api from '@/api/api'; // Importa o arquivo api.js para fazer chamadas à API
+import api from '../../../clientapp/src/api/api'; // Importa o arquivo api.js para fazer chamadas à API 
 
 export default {
   data() {

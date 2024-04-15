@@ -10,6 +10,7 @@ namespace ContactBookAPI.Models
         }
 
         public DbSet<Contact> Contacts { get; set; }
+
     
     }
 }
